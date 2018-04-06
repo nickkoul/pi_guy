@@ -31,7 +31,7 @@ def rotate_to(next_pos=0):
     p = GPIO.PWM(12, 50)
 
     pulsewidth = 11.25
-    rot_speed = 0.00320
+    rot_speed = 0.00480
     if angle_diff > 0:
         pulsewidth = 3.75
 
